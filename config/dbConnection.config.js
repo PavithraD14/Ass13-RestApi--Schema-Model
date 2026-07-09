@@ -4,7 +4,7 @@
 
  const dbConnection = async () => {
     try{
-       await mongoose.connect(process.env.compassport);
+       await mongoose.connect(process.env.atlasport);
        console.log("Database connected");
     }catch(err){
         console.log(err.message);

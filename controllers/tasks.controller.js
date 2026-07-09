@@ -2,7 +2,7 @@ const taskModel = require("../model/tasks.model");
 
 //API model
 //Get
-
+//private
 const allTasks = async (req, res) => {
     try {
         const tasks = await taskModel.find();
